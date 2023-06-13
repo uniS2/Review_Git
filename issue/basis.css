@@ -1,0 +1,34 @@
+/* 초기화 */
+/* 리스트 */
+ul {
+  margin: 0;
+}
+
+/* 변수 */
+/* 여백 */
+:root {
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-base: 1rem;
+  --spacing-gap: 2rem;
+}
+
+/* 사용자 지정 */
+/* footer */
+footer {
+  font-size: 0.75rem;
+  color: rgb(70, 82, 96);
+}
+
+/* 본문 */
+.structure {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  width:36rem;
+}
+
+/* 제목 */
+.title {
+  color:#FF5733 ;
+  text-shadow: 1px 1px whitesmoke;
+}

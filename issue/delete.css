@@ -1,0 +1,41 @@
+@import url(./basis.css);
+
+/* flex 복습 */
+
+.del--local {
+  /* 여백 */
+  padding: var(--spacing-sm);
+  /* flex */
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* grid 복습 */
+
+.del__list {
+  height: 26rem;
+  display: grid;
+  gap: var(--spacing-gap);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    'one one'
+    'two three'
+    'four four';
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
